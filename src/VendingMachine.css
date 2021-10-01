@@ -1,0 +1,7 @@
+.VendingMachine{
+  margin: 50px;
+}
+
+.VendingMachine img {
+  max-width: 30%;
+}

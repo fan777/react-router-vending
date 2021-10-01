@@ -5,11 +5,13 @@ import './VendingMachine.css';
 const VendingMachine = () => {
   return (
     <div className='VendingMachine'>
-      Vending machine
-      <Link exact to='/cheetos'>Cheetos</Link>
-      <Link exact to='/steak'>Steak</Link>
-
-    </div>
+      <div>
+        <img src='images/vending-machine-clipart.svg' alt='Vending Machine' />
+      </div>
+      <div>
+        <Link exact to='/cheetos'>Cheetos</Link> <Link exact to='/steak'>Steak</Link> <Link exact to='/gummy-bears'>Gummy Bears</Link>
+      </div>
+    </div >
   );
 }
 
