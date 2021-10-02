@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import NavBar from './NavBar';
 import VendingMachine from './VendingMachine';
 import Cheetos from './Cheetos';
 import Steak from './Steak';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <NavBar />
         <Switch>
           <Route exact path='/'>
             <VendingMachine />
