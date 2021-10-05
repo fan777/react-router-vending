@@ -7,7 +7,6 @@ const GummyBears = () => {
       <div>
         <Link exact to='/'>Go back</Link>
       </div>
-
     </div>
   )
 }
